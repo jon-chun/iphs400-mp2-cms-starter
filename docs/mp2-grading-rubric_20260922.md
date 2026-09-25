@@ -304,7 +304,7 @@ pass_threshold: 70
 extra_credit_cap: 5
 template_repo: jon-chun/iphs400-mp2-cms-starter        # public template students copy
 dev_repo: jon-chun/iphs400-mp2-cms-starter-dev          # private: rubric, judge, reports, decisions.jsonl
-template_base_commit: <fill in when the template is published>
+template_base_commit: eaea7b19b9bd67e0c615d98a92e8bcd8ca1a7eeb
 walkthrough_viewports: [1280, 390]
 defer_band: [67, 73]          # totals in this band always go to the instructor
 ```
