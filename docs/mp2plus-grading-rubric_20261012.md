@@ -19,7 +19,7 @@
 | Milestone | When (Eastern, EDT, UTC−4) | Tag | Email subject |
 |---|---|---|---|
 | **Assigned** | **Tue Oct 13, 2026** | `mp2plus-base` before the first MP2plus commit | |
-| **Due** | **Thu Oct 22, 2026, 2:40 pm**; no-penalty grace until **Fri Oct 23, 2026, 2:40 pm** | `mp2plus-final` | `IPHS400 MP2plus - {First Last}` (any dash counts) |
+| **Due** | **Tue Oct 20, 2026, 2:40 pm**; no-penalty grace until **Wed Oct 21, 2026, 2:40 pm** | `mp2plus-final` | `IPHS400 MP2plus - {First Last}` (any dash counts) |
 
 Email body: repo URL, GitHub Pages URL, tag name, and the live admin URL if F9 was done. Attach the MP2plus report.
 
@@ -270,8 +270,8 @@ One orchestrator and one worker per student, as in MP2. Use the MP2 rubric's orc
 ```yaml
 rubric_version: mp2plus-v2-20261012
 assigned:  2026-10-13
-deadline:  2026-10-22T14:40:00-04:00
-grace_end: 2026-10-23T14:40:00-04:00
+deadline:  2026-10-20T14:40:00-04:00
+grace_end: 2026-10-21T14:40:00-04:00
 base_tag:  mp2plus-base
 final_tag: mp2plus-final
 points_cap: 15                # added to the MP2 score; the rest is reported, not counted
@@ -324,7 +324,7 @@ Not deferred: **more than +15 claimed**. The judge scores all, applies the cap, 
 - **Prototype handoff that counts (P2):** a question, a measurement, and a decision ("Does a 50-post index fit one file? Generated one: 14 KB. One JSON file, no paging; see `CONTEXT.md` *Search index*."). **Does not count:** a pasted transcript with no decision.
 
 ### 11. Instructor to-do before publishing
-1. Confirm the dates (Oct 13; Oct 22, 2:40 pm; grace Oct 23, 2:40 pm), the +15 cap, the add-to-MP2 rule and the "sum above 100 is kept" rule in both Policy boxes.
+1. Confirm the dates (Oct 13; Oct 20, 2:40 pm; grace Oct 21, 2:40 pm), the +15 cap, the add-to-MP2 rule and the "sum above 100 is kept" rule in both Policy boxes.
 2. Optional: add `--stage 3` to `scripts/check_submission.py` for the MP2plus artifacts. Until then the judge checks them by hand in T0 and T4.
 3. Create the `stretch` label in the template; student copies that lack it run `gh label create stretch` (manual 1.1).
 4. Email F9 students the live-deploy test credential procedure: one test login each, sent privately, created by the student on the live admin, revoked after grading.

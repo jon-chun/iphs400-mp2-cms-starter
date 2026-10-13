@@ -34,7 +34,7 @@ Both are graded. Use `/tdd`, as the manual says.
 ## Deadlines
 
 Stage 1 (`mp2-mvp` tag): Tue Sep 29, 2:40 pm Eastern (soft target).
-Stage 2 (`mp2-final` tag): Tue Oct 6, 2:40 pm Eastern, grace until Wed Oct 7, 2:40 pm.
+Stage 2 (`mp2-final` tag): Thu Oct 15, 2:40 pm Eastern, grace until Fri Oct 16, 2:40 pm.
 
 Run `uv run python scripts/check_submission.py --stage 2` before you submit.
 

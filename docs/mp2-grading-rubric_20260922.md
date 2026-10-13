@@ -21,7 +21,7 @@
 | Stage | Deadline (Eastern, EDT, UTC−4) | Tag | Email subject |
 |---|---|---|---|
 | **Stage 1 — MVP** | Soft target: **Tue Sep 29, 2026, 2:40 pm** | `mp2-mvp` | `IPHS400 MP2 Stage 1 — {First Last}` |
-| **Stage 2 — Full CMS** | **Tue Oct 6, 2026, 2:40 pm**; no-penalty grace until **Wed Oct 7, 2:40 pm** | `mp2-final` | `IPHS400 MP2 Stage 2 — {First Last}` |
+| **Stage 2 — Full CMS** | **Thu Oct 15, 2026, 2:40 pm**; no-penalty grace until **Fri Oct 16, 2:40 pm** | `mp2-final` | `IPHS400 MP2 Stage 2 — {First Last}` |
 
 Email body, both stages: repo URL, GitHub Pages URL, tag name. Stage 2 also attaches the report.
 Stage 1 is soft: its 15 points count whenever `mp2-mvp` exists before the Stage 2 deadline. The 48-hour feedback promise applies only to Stage 1 submissions made on time.
@@ -218,7 +218,7 @@ A committed secret also triggers an immediate instructor notification, whatever 
 | H2 | Naming | Report and transcripts follow the naming patterns exactly | 1 |
 | H3 | Tags | `mp2-mvp` and `mp2-final` both pushed | 1 |
 | H4 | Email | Correct subject, body with all three links, report attached | 1 |
-| H5 | On time | `mp2-final` pushed and email sent before the end of the grace period (Wed Oct 7, 2:40 pm) | 1 |
+| H5 | On time | `mp2-final` pushed and email sent before the end of the grace period (Fri Oct 16, 2:40 pm) | 1 |
 | H6 | Backend declaration | *Backends used* table, `Backend:` commit trailers, and the ledger's `provider` column agree (no backup used = automatic credit) | 1 |
 
 A late submission beyond the grace period, or a backend mismatch, is routed to the instructor rather than deducted automatically beyond H5 or H6.
@@ -298,8 +298,8 @@ This part is for the instructor's grading system (see the `hitl-llm-as-judge-gra
 ```yaml
 rubric_version: mp2-v1-20260922
 stage1_soft_deadline: 2026-09-29T14:40:00-04:00
-stage2_deadline:      2026-10-06T14:40:00-04:00
-stage2_grace_end:     2026-10-07T14:40:00-04:00
+stage2_deadline:      2026-10-15T14:40:00-04:00
+stage2_grace_end:     2026-10-16T14:40:00-04:00
 pass_threshold: 70
 extra_credit_cap: 5
 template_repo: jon-chun/iphs400-mp2-cms-starter        # public template students copy

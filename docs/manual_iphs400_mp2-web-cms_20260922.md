@@ -19,7 +19,7 @@ The admin console runs on **your laptop only**. The public site is exported as p
 | Stage | What is due | When (Eastern, EDT) |
 |---|---|---|
 | **Stage 1 — MVP** | Planning artifacts + first 3 tickets, deployed, tagged `mp2-mvp` | Soft target **Tue Sep 29, 2:40 pm** |
-| **Stage 2 — Full CMS** | All 7 capabilities, tagged `mp2-final`, report emailed | **Tue Oct 6, 2:40 pm**, no-penalty grace to **Wed Oct 7, 2:40 pm** |
+| **Stage 2 — Full CMS** | All 7 capabilities, tagged `mp2-final`, report emailed | **Thu Oct 15, 2:40 pm**, no-penalty grace to **Fri Oct 16, 2:40 pm** |
 
 Stage 1 is a *soft* target: its 15 points count as long as the tag exists before the Stage 2 deadline. But you only get feedback in time to use it if you submit on time.
 
@@ -591,7 +591,7 @@ Fix every failure the checker reports, then email:
 
 You get a short report back within 48 hours: the checker results, whether your ticket set is sound, and the one fix to make before Stage 2.
 
-### 8.2 Stage 2 (Tue Oct 6, grace to Oct 7)
+### 8.2 Stage 2 (Thu Oct 15, grace to Oct 16)
 
 **Screenshots** (6 screens × 1280 px and 390 px) into `docs/screenshots/`: login, dashboard, content list, editor, users, and the page an editor sees when refused an admin screen.
 

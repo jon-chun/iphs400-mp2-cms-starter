@@ -11,7 +11,7 @@ MP2plus is a **menu of 15 independent components** that extend the CMS you built
 
 The menu has three groups. **Features** (F1–F9) come from MP2's stretch menu. **Process** (P1–P4) covers habits MP2 introduced but never scored. **Security** (S1–S2) hardens your login and admin routes.
 
-MP2plus is **not a repair pass**. Fixes to MP2 belong to the MP2 resubmission, due **Thu Oct 15**. MP2plus starts where your MP2 ends.
+MP2plus is **not a repair pass**. Fixes to MP2 belong to the MP2 resubmission, due **Thu Oct 15, 2:40 pm**. MP2plus starts where your MP2 ends.
 
 ### The menu
 | Id | Component | Time | Pts |
@@ -39,13 +39,13 @@ Every component pays about 2 points per estimated hour, so no choice is a shortc
 | Milestone | What | When (Eastern, EDT) |
 |---|---|---|
 | **Assigned** | This manual and the rubric | **Tue Oct 13, 2026** |
-| **Due** | Tag `mp2plus-final` pushed, report emailed | **Thu Oct 22, 2026, 2:40 pm** |
-| **Grace** | No penalty | until **Fri Oct 23, 2026, 2:40 pm** |
+| **Due** | Tag `mp2plus-final` pushed, report emailed | **Tue Oct 20, 2026, 2:40 pm** |
+| **Grace** | No penalty | until **Wed Oct 21, 2026, 2:40 pm** |
 
 Around the components you pick, two short parts are required and worth 0 points. Part 0, before you start, takes 15 minutes. Part 2, submit, takes 30 minutes.
 
 ### Prerequisites
-- **A submitted MP2 repo**, `iphs400-mp2-cms`, with `mp2-final` pushed. If you are resubmitting MP2, finish that first (Thu Oct 15).
+- **A submitted MP2 repo**, `iphs400-mp2-cms`, with `mp2-final` pushed. If you are resubmitting MP2, finish that first (Thu Oct 15, 2:40 pm).
 - Your MP2 setup still working: `uv`, `gh` logged in, Claude Code with the mattpocock skills, the hooks, and the usage ledger. Features reuse MP2 Part 6's per-ticket runbook.
 
 > **Policy (set by the instructor).** MP2plus points are **added to your MP2 score** after any Oct 15 resubmission is graded. They are not a separate grade. Example: MP2 84 + MP2plus 7 = 91.
@@ -431,7 +431,7 @@ git tag mp2plus-final && git push --tags
 
 **Expected:** no `FAIL` lines, all tests pass, and `* [new tag] mp2plus-final -> mp2plus-final`.
 
-Email the instructor before the grace end, Fri Oct 23, 2:40 pm:
+Email the instructor before the grace end, Wed Oct 21, 2:40 pm:
 
 - **Subject:** `IPHS400 MP2plus - First Last` (any dash counts; the words must match)
 - **Body:** repo URL, Pages URL, tag `mp2plus-final`, and the live admin URL if you built F9.
