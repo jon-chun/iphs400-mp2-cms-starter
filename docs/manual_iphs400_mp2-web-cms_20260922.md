@@ -18,10 +18,15 @@ The admin console runs on **your laptop only**. The public site is exported as p
 
 | Stage | What is due | When (Eastern, EDT) |
 |---|---|---|
-| **Stage 1 — MVP** | Planning artifacts + first 3 tickets, deployed, tagged `mp2-mvp` | Soft target **Tue Sep 29, 2:40 pm** |
-| **Stage 2 — Full CMS** | All 7 capabilities, tagged `mp2-final`, report emailed | **Thu Oct 15, 2:40 pm**, no-penalty grace to **Fri Oct 16, 2:40 pm** |
+| **Stage 1 — MVP** | Preliminary checkpoint (ungraded): planning artifacts + first 3 tickets, deployed, tagged `mp2-mvp` | **Tue Sep 29, 2:40 pm** (past) |
+| **Stage 2 — Full CMS** | Final, graded submission: all 7 capabilities, tagged `mp2-final`, report emailed | **Thu Oct 15, 2:40 pm**, no-penalty grace to **Fri Oct 16, 2:40 pm** |
+| **MP2plus** (optional extra credit) | Exercises from the MP2plus manual | Assigned **Sun Oct 11**; due **Tue Oct 20, 2:40 pm**, grace to **Wed Oct 21, 2:40 pm** |
 
-Stage 1 is a *soft* target: its 15 points count as long as the tag exists before the Stage 2 deadline. But you only get feedback in time to use it if you submit on time.
+Stage 1 was a preliminary, ungraded checkpoint: its 15 points are credited for the tag, not graded for quality, and they count as long as `mp2-mvp` exists before the Stage 2 deadline. Stage 2 is the final, graded submission.
+
+The first round of final submissions (due Oct 6) was graded and returned on Oct 8. The deadline was extended to Oct 15 so you can revise after feedback. One revised `mp2-final` by Oct 15 replaces your earlier grade.
+
+MP2 extra credit is earned only through MP2plus, assigned Sun Oct 11 after the first final submissions were graded. It gives deeper hands-on practice and a way to close the gaps the rubric found. Each exercise takes 15–60 minutes and is worth 5–10 points by time and difficulty. Points are added to your MP2 grade, up to a maximum of +30. See `docs/manual_iphs400_mp2plus-web-cms_20261012.md` and `docs/mp2plus-grading-rubric_20261012.md`.
 
 | Part | Topic | Time |
 |---|---|---|
@@ -71,7 +76,7 @@ Tick every line before you submit Stage 2. `scripts/check_submission.py` checks 
 - [ ] Live site at `https://{username}.github.io/iphs400-mp2-cms/`
 - [ ] Tags `mp2-mvp` and `mp2-final` pushed
 
-Grading: the rubric is `docs/mp2-grading-rubric_20260922.md` in the starter repo you copy. Read it **before** you start, not after. Pass/No-Pass, ≥70 passes, 5% of the course grade.
+Grading: the rubric is `docs/mp2-grading-rubric_20260922.md` in the starter repo you copy. Read it **before** you start, not after. MP2 is graded as a score out of 100, scaled to 5% of the course grade. There is no pass line.
 
 ---
 
@@ -577,7 +582,7 @@ git grep -n 'href="/\|src="/' gh-pages -- '*.html' | head
 
 ## Part 8 — Submitting
 
-### 8.1 Stage 1 (Tue Sep 29)
+### 8.1 Stage 1 checkpoint (Tue Sep 29, past; ungraded)
 
 ```bash
 uv run python scripts/check_submission.py --stage 1
@@ -589,9 +594,11 @@ Fix every failure the checker reports, then email:
 - **Subject:** `IPHS400 MP2 Stage 1 — First Last`
 - **Body:** repo URL, Pages URL, tag name.
 
-You get a short report back within 48 hours: the checker results, whether your ticket set is sound, and the one fix to make before Stage 2.
+Stage 1 was a preliminary checkpoint and its date has passed. If `mp2-mvp` is not pushed yet, push it before the Stage 2 deadline: its 15 points are credited whenever the tag exists by then. Submissions made on time got a short report back within 48 hours: the checker results, whether the ticket set is sound, and the one fix to make before Stage 2.
 
-### 8.2 Stage 2 (Thu Oct 15, grace to Oct 16)
+### 8.2 Stage 2 — final, graded (Thu Oct 15, grace to Oct 16)
+
+If you already submitted a first `mp2-final` by Oct 6, it was graded and returned on Oct 8. Revise after the feedback and push one revised `mp2-final` by Oct 15: it replaces the earlier grade.
 
 **Screenshots** (6 screens × 1280 px and 390 px) into `docs/screenshots/`: login, dashboard, content list, editor, users, and the page an editor sees when refused an admin screen.
 
@@ -688,7 +695,7 @@ iphs400-mp2-cms/
 
 ## Appendix C — How you are graded (summary)
 
-Stage 1 is 15 points, Stage 2 is 85, and up to 5 extra credit if you are already at 70. Stage 2 factors: authenticity and judgment 17 · workflow fidelity 17 · CMS functionality 15 · security 8 · tests and code 8 · site and admin UX 7 · report and docs 6 · compliance 7. Every point is a checklist item, and every point you lose comes back with a specific fix. The full rubric is `docs/mp2-grading-rubric_20260922.md` in your repo — read it first, and run `check_submission.py` early and often.
+MP2 is graded as a score out of 100, scaled to 5% of the course grade; there is no pass line. Stage 1 (a preliminary, ungraded checkpoint) is 15 points credited for the tag, and Stage 2 (the final, graded submission) is 85. Extra credit comes only through MP2plus: 5–10 points per exercise, added to your MP2 grade, up to +30. Stage 2 factors: authenticity and judgment 17 · workflow fidelity 17 · CMS functionality 15 · security 8 · tests and code 8 · site and admin UX 7 · report and docs 6 · compliance 7. Every point is a checklist item, and every point you lose comes back with a specific fix. The full rubric is `docs/mp2-grading-rubric_20260922.md` in your repo — read it first, and run `check_submission.py` early and often.
 
 ## Appendix D — Resources
 

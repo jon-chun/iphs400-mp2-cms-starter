@@ -6,7 +6,7 @@ Do not fork: a fork arrives without an Issues tab, and your tickets live in Issu
 ## Start here
 
 1. `docs/manual_iphs400_mp2-web-cms_20260922.md` — the manual. Read Part 0 and Part 1 first.
-2. `docs/mp2-grading-rubric_20260922.md` — how you are graded. Read it **before** you build.
+2. `docs/mp2-grading-rubric_20260922.md` — how you are graded. Read it **before** you build or revise.
 3. `docs/mp2-setup_context-threshold-hook_20260922.md` — Exercise A, in Part 4 of the manual.
 
 ## Run it
@@ -29,12 +29,14 @@ docs/adr/          two example decision records
 
 Two functions are deliberately unfinished and their tests fail until you write them:
 `decide()` in `.claude/hooks/ctx_guard.py` and `spend()` in `scripts/usage_report.py`.
-Both are graded. Use `/tdd`, as the manual says.
+Both are graded in Stage 2. Use `/tdd`, as the manual says.
 
 ## Deadlines
 
-Stage 1 (`mp2-mvp` tag): Tue Sep 29, 2:40 pm Eastern (soft target).
-Stage 2 (`mp2-final` tag): Thu Oct 15, 2:40 pm Eastern, grace until Fri Oct 16, 2:40 pm.
+Stage 1 (`mp2-mvp` tag): Tue Sep 29, 2:40 pm Eastern. A preliminary checkpoint, past and ungraded; its 15 points are credited for the tag.
+Stage 2 (`mp2-final` tag): the final, graded submission, due Thu Oct 15, 2:40 pm Eastern, grace until Fri Oct 16, 2:40 pm. The first round (due Oct 6) was graded and returned on Oct 8; the deadline was extended so you can revise after feedback, and one revised `mp2-final` by Oct 15 replaces the earlier grade.
+MP2plus (optional extra credit): assigned Sun Oct 11, due Tue Oct 20, 2:40 pm Eastern, grace until Wed Oct 21, 2:40 pm. Each exercise is worth 5–10 points, added to your MP2 grade, up to +30.
+MP2 is graded as a score out of 100, scaled to 5% of the course grade.
 
 Run `uv run python scripts/check_submission.py --stage 2` before you submit.
 
